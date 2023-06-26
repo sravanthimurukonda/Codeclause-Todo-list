@@ -1,0 +1,40 @@
+.todo-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color:azure
+    }
+
+    .todo-list {
+      max-width: 400px;
+      padding: 40px;
+      background-color:antiquewhite;
+      border-radius:5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .task {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .task input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    .task label {
+      flex-grow: 1;
+      word-break: break-word;
+      padding-right: 10px;
+      text-decoration: none;
+    }
+
+    .task .done {
+      text-decoration: line-through;
+    }
+
+    .task button {
+      margin-left: 10px;
+    }
